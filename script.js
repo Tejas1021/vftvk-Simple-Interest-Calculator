@@ -3,7 +3,7 @@ function compute()
         var n = document.querySelector("select").value;
         var p,r,a;
         p = document.getElementById("principal").value;
-        if(p=0)
+        if(p<=0)
         {
             alert("Enter A Positive Number");
             return false;
